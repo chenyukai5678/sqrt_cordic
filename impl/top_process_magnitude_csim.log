@@ -1,0 +1,19 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../test_main.cpp in debug mode
+   Compiling ../../../../cordic_isqrt.cpp in debug mode
+   Compiling ../../../../cordic_sqrt.cpp in debug mode
+   Compiling ../../../../float_sqrt.cpp in debug mode
+   Compiling ../../../../top_magnitude.cpp in debug mode
+   Generating csim.exe
+
+preparing input stimula
+running Design Under Test
+now running full cordic 18-bit approssimation method
+check results
+Test successful!
+
+RELATIVE ERROR = 0.0364
+MAX ERROR = 1 in sqrt( 21153^2 +  21520^2): EXPECTED= 30175, EFFECTIVE= 30174
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
