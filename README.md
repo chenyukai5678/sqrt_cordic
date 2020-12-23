@@ -5,6 +5,32 @@ reference:https://github.com/Xilinx/HLx_Examples
 - **sqrt_cordic** - Linear Algebra Library: Sqrt() Example.
 Implementing the math function sqrt from the Linear Algebra Library.
 
+## DESIGN FILE HIERARCHY
+```
+
+	|   README.md
+	|   
+	\---code
+			cordic_defines.h
+			cordic_isqrt.cpp
+			cordic_sqrt.cpp
+			float_sqrt.cpp
+			top_magnitude.cpp
+	\---code_opt
+			cordic_defines.h
+			cordic_isqrt.cpp
+			cordic_sqrt.cpp
+			float_sqrt.cpp
+			top_magnitude.cpp
+	\---script
+			run_sqrt_cordic_hls_script.tcl
+	\---impl
+			csynth.xml
+			top_process_magnitude_sim.log
+	\---testdata
+			test_main.cpp
+
+
 ## OTHER INFORMATION
 
 For more information check here: 
