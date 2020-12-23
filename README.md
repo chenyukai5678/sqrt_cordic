@@ -6,7 +6,6 @@ reference:https://github.com/Xilinx/HLx_Examples
 Implementing the math function sqrt from the Linear Algebra Library.
 
 ## DESIGN FILE HIERARCHY
-```
 
 	|   README.md
 	|   
